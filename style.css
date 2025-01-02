@@ -1,0 +1,155 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+}
+
+.container {
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    height: 70%;
+    width: 70%;
+    color: white;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-top {
+    height: 48%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-para1,
+.l-para2 {
+    padding: 14px;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 9px 8px 9px 8px rgba(0, 0, 0, 0.5);
+    background-color: #861657;
+}
+
+.l-para2 {
+    background-color: rgb(60, 82, 92);
+}
+
+.right {
+    height: 70vh;
+    width: 25%;
+    color: aliceblue;
+    background-color:#2D3C3B;
+    margin-top: 13px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.right h2,
+.right p {
+    margin: 10px;
+}
+
+@media(max-width: 768px) {
+    .container{
+        display: flex;
+        padding: 2em;
+        font-size: 18px;
+        flex-direction: column;
+        height: auto;
+        width: 100wh;
+        margin-top: 13px;
+        font-family: cursive;
+        border-radius: 12px;
+        
+    }
+    .left{
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        margin: 1em;
+    }
+
+    .right{
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        margin: 1em;
+    }
+    .l-para1{
+        width: 50vw;
+        height: 50vh;
+        font-size: 19px;
+        margin-top: 0%;
+        
+    }
+
+    .l-para2{
+        width: 50vw;
+        height: 50vh;
+        font-size: 19px;
+        margin: 2px;
+        
+    }
+    body {
+        font-family: sans-serif;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        background-color: azure;
+    }
+   
+
+}
+@media(max-width: 480px) {
+    .left-top{
+        display: flex;
+        padding: 1em;
+        margin: 0%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .l-para1{
+        width: 85vw;
+        height: 40vh;
+        margin: 1em;
+        padding-top: 0px;
+       
+        
+    }
+    .l-para2{
+        width: 85vw;
+        height: 30vh;
+       margin: 1em;
+       margin: 1em;
+    }
+    .right{
+        width: 85vw;
+        height: 40vh;
+    }
+
+}
